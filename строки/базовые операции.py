@@ -24,3 +24,9 @@ if 'Папа' in s:
     print('В строке есть слово папа')
 else:
     print('Слова папа нет.')
+k_a = 0
+for i in s:
+    if i == 'а':
+        k_a += 1  # k_a = k_a + 1 k_a++
+s = 'п' + s[1:]
+print(s)
